@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Lab02_01 {
+ public static void main (String[] args) {
+   //Setup Scanner
+   Scanner userInput = new Scanner(System.in);
+   
+   //Ask user for num1 and num2
+   System.out.print("What is your first number?:: ");
+   String num1 = userInput.nextInt();
+   System.out.print("What is your second number?:: ");
+   String num2 = userInput.nextInt();
+   System.out.println("\nThe answer is" + num1 + " " + num2");
+   
