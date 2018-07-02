@@ -14,6 +14,7 @@ public class Lab02_07 {
    
    //Answer to problem
    System.out.print("The surface area of the cylinder is approximately ");
-   System.out.print(2 * 3.14 * radius * height + 2 * 3.14 * radius * radius);
+   final double PI =  3.14159265359;
+   System.out.print(2 * PI * radius * height + 2 * PI * radius * radius);
  }
 }

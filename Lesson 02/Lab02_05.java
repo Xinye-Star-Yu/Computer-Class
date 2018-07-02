@@ -9,16 +9,17 @@ public class Lab02_05 {
    System.out.print("Welcome to the most accurate BMI calculator!\n\n");
    System.out.print("What is your name?:: ");
    String name = userInput.nextLine();
-   System.out.print("What is your weight in kilograms?:: ");
+   System.out.print("What is your weight in pounds?:: ");
    double weight = userInput.nextDouble();
-   System.out.print("What is your height in meters?:: ");
+   System.out.print("What is your height in inches?:: ");
    double height = userInput.nextDouble();
    
    //User BMI
    System.out.print("Ok ");
    System.out.print(name);
    System.out.println(", your BMI is ");
-   System.out.print(weight / height / height);
+   final double USMETRIC = 703;
+   System.out.print(weight / height / height * USMETRIC);
    System.out.print("\n\nThe healthy BMI range is between 18.5-24.9");
  }
 }
