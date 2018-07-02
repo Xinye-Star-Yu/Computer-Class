@@ -13,10 +13,10 @@ public class Lab02_09 {
     String fullName = firstName + " " + lastName;
     System.out.println("\nHello " + fullName + ". How are you doing?");
 
-	 //Ask user for their car
-	 System.out.print("What car do you drive:: ");
-	 String userCar = userInput.nextLine();
-	 System.out.println("Nice " + userCar + " " + firstName + ".");
+	//Ask user for their car
+	System.out.print("What car do you drive:: ");
+	String userCar = userInput.nextLine();
+	System.out.println("Nice " + userCar + " " + firstName + ".");
     
 	//Ask user for age
     System.out.print("\nWhat is your age:: ");

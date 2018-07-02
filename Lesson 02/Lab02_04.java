@@ -14,6 +14,8 @@ public class Lab02_04 {
    
    //Answer to division problem
    System.out.print("The answer is ");
-   System.out.print(num1 / num2);
+   double answer = (num1 / num2);
+   System.out.printf("%.2f",answer);
+
  }
 }

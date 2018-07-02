@@ -15,6 +15,7 @@ public class Lab02_06 {
    //Answer to problem
    System.out.print("The volume of the cylinder is approximately ");
    final double PI =  3.14159265359;
-   System.out.print(PI * radius * radius * height);
+   double answer = (PI * radius * radius * height);
+   System.out.printf("%.2f",answer);
  }
 }

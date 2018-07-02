@@ -19,7 +19,8 @@ public class Lab02_05 {
    System.out.print(name);
    System.out.println(", your BMI is ");
    final double USMETRIC = 703;
-   System.out.print(weight / height / height * USMETRIC);
+   double BMI = (weight / height / height * USMETRIC);
+   System.out.printf("%.2f",BMI);
    System.out.print("\n\nThe healthy BMI range is between 18.5-24.9");
  }
 }
