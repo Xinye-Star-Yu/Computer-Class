@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Challenge_2 {
+public class Calculator {
  public static void main (String[] args) {
    //Setup Scanner
    Scanner userInput = new Scanner(System.in);
@@ -12,6 +12,10 @@ public class Challenge_2 {
    System.out.print("What is your second number?:: ");
    double num2 = userInput.nextDouble();
    System.out.print("Press 1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division:: ");
+   int Add = 1;
+   int subtract = 2;
+   int multiply = 3;
+   int divide = 4;
    int sign = userInput.nextInt();
    
    //Answer to addition
