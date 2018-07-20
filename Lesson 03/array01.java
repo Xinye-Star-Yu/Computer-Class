@@ -19,15 +19,16 @@ public class array01 {
 	}	
 	System.out.println(arrayPrintF(arrayOfDouble));
 	
-    System.out.println(Arrays.toString(arrayOfInt));   
+	//Shortcut
+	System.out.println(Arrays.toString(arrayOfInt));   
 	System.out.println(Arrays.toString(arrayOfDouble));   
 
   }
   public static void arrayPrinter(int[] intArray){
 	  for (int i = 0; i < 4; i++) {
 		  System.out.println(intArray[i]);
-	  }
-  }
+	}
+ }
 
  public static String arrayPrintF(int[] intArray) {
 	String output = "[" + intArray[0];
@@ -42,5 +43,5 @@ public class array01 {
 		output += ", " + intArray[i];
 	}
  return output + "]";
-  }
  }
+}
