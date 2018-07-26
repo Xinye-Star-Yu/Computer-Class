@@ -47,8 +47,10 @@ public class Farm
 	{
 		age = ag;
 	}
+	
 	public void setNoise(String n)
 	{
 		noise = n;
 	}
+	
 }
