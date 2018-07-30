@@ -41,4 +41,8 @@ public class item
 		id = i;
 	}
 	
+	public String toString()
+	{
+		return "(" + id + ")" + object + ".........." + price;
+	}
 }
